@@ -1,0 +1,116 @@
+:root{
+    --greenhouse-green: #68ae66;
+    --background-color: #badda4;
+}
+
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: punkFont;
+    src: url(./font/Mustasurma.ttf);
+}
+
+@font-face {
+    font-family: subtextFont;
+    src: url(./font/KaushanScript-Regular.otf);
+}
+
+body{
+    background-color: var(--background-color);
+    background-image: url(./images/kayleigh-harrington-yhn4okt6ci0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-size: cover;
+}
+
+.content-header{
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0, 0.85);
+    padding: 40px;
+    max-width: 80%;
+}
+.header-subtext{
+    color: var(--greenhouse-green);
+    font-size: 30px;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-content{
+    color: white;
+    font-size: 30px;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-item-head{
+    font-size: 36px;
+    font-family: punkFont;
+    color: white;
+}
+
+.menu-item{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0,0,0, 0.85);
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 1%;
+    border-radius: 15px;
+}
+
+.menu-item:hover{
+    cursor: pointer;
+    background-color: rgba(69,144,74, 0.85);
+}
+
+#content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: punkFont;
+    font-size: 50px;
+    color: var(--greenhouse-green);
+    padding-top: 5%;
+}
+
+.menu-item > img{
+    border-radius: 15px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(69,144,74, 0.85);
+    padding: 1%;
+}
+
+nav > button{
+    cursor: pointer;
+    background-color: var(--background-color);
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-family: punkFont;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+nav > button:hover{
+    color: white;
+    background-color: rgba(0,0,0, 0.85);
+}
+
+
