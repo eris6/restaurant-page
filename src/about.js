@@ -6,7 +6,6 @@ function generateAbout(){
     content.appendChild(contentHeader);
 
     const aboutHead = document.createElement("div");
-    aboutHead.classList.add("menu-item-head");
     aboutHead.textContent="About Us"; 
     contentHeader.appendChild(aboutHead);
 
