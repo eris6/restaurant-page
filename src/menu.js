@@ -29,8 +29,8 @@ function generateMenu(){
 
     itemArray.push({
         itemHead: "Ham",
-        itemText: "A stack of homemade buttermilk pancakes, served with our locally sourced maple syrup.",
-        itemPrice: "$5.99"
+        itemText: "Ham prepared by an alt goth baddie",
+        itemPrice: "$8.99"
     })
 
 
