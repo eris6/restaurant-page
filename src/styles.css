@@ -28,6 +28,8 @@ body{
     background-color: rgba(0,0,0, 0.85);
     padding: 40px;
     max-width: 80%;
+    border-radius: 15px;
+    border: 1px solid white;
 }
 .header-subtext{
     color: var(--greenhouse-green);
@@ -47,12 +49,12 @@ body{
 
 .menu-item-head{
     font-size: 36px;
-    font-family: punkFont;
-    color: white;
+    font-family: Arial, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--greenhouse-green);
 }
 
 .menu-item{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgba(0,0,0, 0.85);
     font-size: 20px;
     font-weight: bold;
